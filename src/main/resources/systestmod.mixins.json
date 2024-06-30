@@ -3,7 +3,6 @@
 	"package": "com.sysnote8.systestmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
