@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "systestmod:block/helloworld_machine_block"
+        }
+    }
+}

@@ -1,5 +1,8 @@
 package com.sysnote8.systestmod;
 
+import com.sysnote8.systestmod.manager.BlockManager;
+import com.sysnote8.systestmod.manager.BlockEntityManager;
+import com.sysnote8.systestmod.manager.GuiManager;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,6 +13,8 @@ public class SysTestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		BlockManager.init();
+		BlockEntityManager.init();
+		GuiManager.init();
 	}
 }
